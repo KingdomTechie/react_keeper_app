@@ -6,7 +6,9 @@ const Footer = () => {
     let year = date.getFullYear()
 
     return (
-        <p>Copyright {year}</p>
+        <footer>
+          <p>Copyright {year}</p>
+        </footer>
     )
 };
 
