@@ -1,13 +1,11 @@
 
 const Footer = () => {
 
-    const date = new Date();
-
-    let year = date.getFullYear()
+    let year = new Date().getFullYear()
 
     return (
         <footer>
-          <p>Copyright {year}</p>
+          <p>Copyright © {year}</p>
         </footer>
     )
 };
